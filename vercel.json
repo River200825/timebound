@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/zhipu/:path*",
+      "destination": "https://open.bigmodel.cn/api/paas/v4/:path*"
+    },
+    {
+      "source": "/api/qwen/:path*",
+      "destination": "https://dashscope.aliyuncs.com/compatible-mode/:path*"
+    },
+    {
+      "source": "/api/kimi/:path*",
+      "destination": "https://api.moonshot.cn/v1/:path*"
+    }
+  ]
+}
